@@ -744,11 +744,11 @@
 </ul>
 </li>
 </ol>
-<p><img alt="CodeDeploy Agent" src="/images/3/5.png"></p>
+<p><img alt="CodeDeploy Agent" src="/23/images/3/5.png"></p>
 <ol start="2">
 <li>Then we will move to the connecting interface.</li>
 </ol>
-<p><img alt="CodeDeploy Agent" src="/images/3/6.png"></p>
+<p><img alt="CodeDeploy Agent" src="/23/images/3/6.png"></p>
 <ol start="3">
 <li>Execute the following commands to install <strong>CodeDeploy Agent</strong></li>
 </ol>
@@ -773,17 +773,17 @@ sudo ./install auto &amp;&amp;
 sudo yum remove -y wget &amp;&amp;
 
 sudo service codedeploy-agent start
-</code></pre><p><img alt="CodeDeploy Agent" src="/images/3/7.png"></p>
+</code></pre><p><img alt="CodeDeploy Agent" src="/23/images/3/7.png"></p>
 <ol start="4">
 <li>Complete installation of <strong>CodeDeploy Agent</strong></li>
 </ol>
-<p><img alt="CodeDeploy Agent" src="/images/3/8.png"></p>
+<p><img alt="CodeDeploy Agent" src="/23/images/3/8.png"></p>
 <h4 id="codedeploy-agent-add-user-data-for-ec2">CodeDeploy Agent (Add User Data For EC2)</h4>
 <ol>
 <li>When creating an EC2 Instance, you can add user data to install the CodeDeploy Agent. Click on &ldquo;Advanced details.&rdquo;
-<img alt="CodeDeploy Agent" src="/images/3/2.png"></li>
+<img alt="CodeDeploy Agent" src="/23/images/3/2.png"></li>
 <li>If you want, you can also add an IAM Role at this step.
-<img alt="CodeDeploy Agent" src="/images/3/3.png"></li>
+<img alt="CodeDeploy Agent" src="/23/images/3/3.png"></li>
 <li>Proceed to add User data.</li>
 </ol>
 <pre tabindex="0"><code>#!/bin/bash
@@ -794,7 +794,7 @@ cd /home/ec2-user
 https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install
 wget chmod +x ./scripts/*
 ./install auto
-</code></pre><p><img alt="CodeDeploy Agent" src="/images/3/4.png"></p>
+</code></pre><p><img alt="CodeDeploy Agent" src="/23/images/3/4.png"></p>
 
 
 
